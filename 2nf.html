@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Students - 2NF Tables</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Students - 2NF Tables</h1>
+  
+  <h2>Students_2NF Table</h2>
+  <table>
+    <tr>
+      <th>student_id</th>
+      <th>first_name</th>
+      <th>last_name</th>
+      <th>date_of_birth</th>
+      <th>email</th>
+      <th>phone_number</th>
+      <th>address_id</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Neeraj Sai</td>
+      <td>J</td>
+      <td>2003-05-15</td>
+      <td>neeraj@example.com</td>
+      <td>1234567890</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Anthony</td>
+      <td>C</td>
+      <td>2003-08-22</td>
+      <td>anthony@example.com</td>
+      <td>9876543210</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Srinivas</td>
+      <td>MGC</td>
+      <td>2003-12-10</td>
+      <td>srinivas@example.com</td>
+      <td>4567891230</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Vinay</td>
+      <td>P</td>
+      <td>2003-03-05</td>
+      <td>vinay@example.com</td>
+      <td>9087654321</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>David</td>
+      <td>Brown</td>
+      <td>1993-07-18</td>
+      <td>davidbrown@example.com</td>
+      <td>5678901234</td>
+      <td>5</td>
+    </tr>
+  </table>
+  
+  <h2>Addresses Table</h2>
+  <table>
+    <tr>
+      <th>address_id</th>
+      <th>address</th>
+      <th>city</th>
+      <th>state</th>
+      <th>pincode</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>123 Street</td>
+      <td>New York</td>
+      <td>NY</td>
+      <td>12345</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>456 Avenue</td>
+      <td>Los Angeles</td>
+      <td>CA</td>
+      <td>56789</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>789 Road</td>
+      <td>Chicago</td>
+      <td>IL</td>
+      <td>67890</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>987 Street</td>
+      <td>Miami</td>
+      <td>FL</td>
+      <td>54321</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>321 Boulevard</td>
+      <td>Seattle</td>
+      <td>WA</td>
+      <td>98765</td>
+    </tr>
+  </table>
+</body>
+</html>
